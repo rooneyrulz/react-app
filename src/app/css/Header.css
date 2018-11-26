@@ -1,0 +1,25 @@
+nav {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  background: rgba(0, 0, .90, .40);
+  border-bottom: 1px solid #fff;
+  z-index: 100;
+  box-shadow: 1px 2px 8px #000;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav .navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+nav .navbar-nav li:hover {
+  background: rgba(0, 0, .90, .50);
+  border-radius: .5rem;
+}
